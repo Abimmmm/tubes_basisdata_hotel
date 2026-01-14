@@ -13,7 +13,7 @@ $currentPage = basename($_SERVER['PHP_SELF']);
 
 <link rel="stylesheet" href="style.css">
 </head>
-
+<style></style>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
   <div class="container">
@@ -34,6 +34,7 @@ $currentPage = basename($_SERVER['PHP_SELF']);
           <a class="nav-link <?= ($currentPage == 'tambah.php') ? 'active fw-semibold' : 'text-white-50'; ?>" href="tambah.php">
             Tambah Data
           </a>
+
         </li>
       </ul>
     </div>
