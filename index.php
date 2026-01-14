@@ -68,7 +68,7 @@ while ($data = mysqli_fetch_array($query)) {
   </div>
 </div>
 
-
+<p>aku</p>
 
     <!-- Modal Tombol Hapus Start -->
     <div class="modal fade" id="confirmHapus<?= $data['id_mahasiswa']; ?>" tabindex="-1">
