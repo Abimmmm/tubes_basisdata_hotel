@@ -13,7 +13,7 @@ $currentPage = basename($_SERVER['PHP_SELF']);
 
 <link rel="stylesheet" href="style.css">
 </head>
-
+<style></style>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
   <div class="container">
